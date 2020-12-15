@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/purple_500"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sizzing Bites"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img3"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        android:textSize="45sp"
+        android:id="@+id/fresh"
+        android:textColor="#fff"
+        android:layout_below="@id/img"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="45sp"
+        android:id="@+id/everythings"
+        android:layout_below="@id/fresh"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"/>
+    android:id="@+id/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Both cadet card and cash "
+        android:textSize="17sp"
+        android:id="@+id/a"
+        android:textColor="#fff"
+        android:layout_below="@id/everythings"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="on delivery are available for your "
+        android:textSize="17sp"
+        android:id="@+id/b"
+        android:textColor="#fff"
+        android:layout_below="@id/a"
+        android:layout_marginLeft="50dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/tab3"
+        android:layout_below="@+id/b"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets Stare"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+       android:id="@+id/letsgo"/>
+
+</RelativeLayout>
